@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="ais-InstantSearch">
-        <h1>Changecx Hermanmiller Products</h1>
+        <h1>Changecx Products</h1>
         <InstantSearch
           indexName="CTL_hermanmiller_products_data"
           searchClient={searchClient}
