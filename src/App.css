@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.left-panel {
+  float: left;
+  width: 250px;
+}
+
+.right-panel {
+  margin-left: 150px;
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ais-Hits-item {
+  margin-bottom: 1em;
+  height: 3.5em;
+  width: calc(93% - 1rem);
+}
+
+.ais-Hits-item img {
+  margin-right: 1em;
+  width: 75px;
+  height: 60px;
+}
+
+.hit-name {
+  margin-bottom: 0.5em;
+}
+
+.hit-description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+.ais-SearchBox-input {
+  padding: 10px;
+  width: 90%;
+}
+.ais-SearchBox-submit {
+  padding: 10px;
+}
+.ais-SearchBox-reset {
+  padding: 10px;
+}
+h1 {
+  margin-left: 250px;
+}
+.ais-Hits-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.ais-Hits-list li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+.ais-Pagination-list {
+  list-style: none;
+  display: inline-flex;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
